@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christelijke Feestdagen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background: #2a5da8;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        section h2 {
+            color: #2a5da8;
+        }
+        .images {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .images img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #4a90e2;
+            color: white;
+            margin-top: auto;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Christelijke Feestdagen</h1>
+    </header>
+    <nav>
+        <a href="#dankdag" onclick="scrollToSection('dankdag')">Dankdag</a>
+        <a href="#kerst" onclick="scrollToSection('kerst')">Kerst</a>
+        <a href="#biddag" onclick="scrollToSection('biddag')">Biddag</a>
+        <a href="#goede-vrijdag" onclick="scrollToSection('goede-vrijdag')">Goede Vrijdag</a>
+        <a href="#pasen" onclick="scrollToSection('pasen')">Pasen</a>
+        <a href="#hemelvaart" onclick="scrollToSection('hemelvaart')">Hemelvaart</a>
+        <a href="#pinksteren" onclick="scrollToSection('pinksteren')">Pinksteren</a>
+    </nav>
+
+    <section id="dankdag">
+        <h2>Dankdag</h2>
+        <p><strong>Wanneer gevierd?</strong><br>Eerste woensdag van november.</p>
+        <p><strong>Wat wordt gevierd?</strong><br>Op Dankdag danken christenen God voor de oogst, werk, gezondheid en andere zegeningen van het afgelopen jaar. Het is een moment van reflectie en waardering.</p>
+        <p><strong>Hoelang duren de feestdag(en)?</strong><br>Eén dag.</p>
+        <p><strong>Op welke manier wordt het gevierd?</strong><br>Met kerkdiensten en gebed. Gezinnen kunnen samenkomen om dankbaarheid te tonen, en soms zijn er liefdadigheidsacties.</p>
+        <p><strong>Wat doen mensen op deze feestdag?</strong><br>Ze bidden, bezoeken de kerk, en nemen de tijd om stil te staan bij alles waarvoor ze dankbaar zijn.</p>
+        <div class="images">
+            <img src="dankdag1.jpg" alt="Dankdag afbeelding 1">
+            <img src="dankdag2.jpg" alt="Dankdag afbeelding 2">
+            <img src="dankdag3.jpg" alt="Dankdag afbeelding 3">
+            <img src="dankdag4.jpg" alt="Dankdag afbeelding 4">
+        </div>
+    </section>
+
+    <section id="kerst">
+        <h2>Kerst</h2>
+        <p><strong>Wanneer gevierd?</strong><br>25 en 26 december.</p>
+        <p><strong>Wat wordt gevierd?</strong><br>Met Kerst vieren christenen de geboorte van Jezus Christus, de Verlosser volgens de Bijbel. Voor veel mensen is het ook een tijd voor familie en samenkomst.</p>
+        <p><strong>Hoelang duren de feestdag(en)?</strong><br>Twee dagen.</p>
+        <p><strong>Op welke manier wordt het gevierd?</strong><br>Met kerkdiensten, feestmaaltijden, cadeautjes, kerstdecoraties zoals bomen en lichtjes, en vaak sociale activiteiten met familie en vrienden.</p>
+        <p><strong>Wat doen mensen op deze feestdag?</strong><br>Ze bezoeken de kerk, versieren hun huis, geven cadeaus, eten samen, en genieten van feestelijke bijeenkomsten.</p>
+        <div class="images">
+            <img src="kerst1.jpg" alt="Kerst afbeelding 1">
+            <img src="kerst2.jpg" alt="Kerst afbeelding 2">
+            <img src="kerst3.jpg" alt="Kerst afbeelding 3">
+            <img src="kerst4.jpg" alt="Kerst afbeelding 4">
+        </div>
+    </section>
+
+    <section id="biddag">
+        <h2>Biddag</h2>
+        <p><strong>Wanneer gevierd?</strong><br>Tweede woensdag in maart.</p>
+        <p><strong>Wat wordt gevierd?</strong><br>Tijdens Biddag vragen christenen aan God om zegen over het komende jaar, voor werk, oogst en het dagelijks leven. Het is een dag van gebed en hoop.</p>
+        <p><strong>Hoelang duren de feestdag(en)?</strong><br>Eén dag.</p>
+        <p><strong>Op welke manier wordt het gevierd?</strong><br>Met kerkdiensten en gebed. Mensen nemen vaak een pauze van hun dagelijkse werk om te reflecteren.</p>
+        <p><strong>Wat doen mensen op deze feestdag?</strong><br>Ze bidden, bezoeken de kerk, en wijden tijd aan stilte en bezinning.</p>
+        <div class="images">
+            <img src="biddag1.jpg" alt="biddag afbeelding 1">
+            <img src="biddag2.jpg" alt="biddag afbeelding 2">
+            <img src="biddag3.jpg" alt="biddag afbeelding 3">
+            <img src="biddag4.jpg" alt="biddag afbeelding 4">
+        </div>
+    </section>
+    
+    <section id="goede-vrijdag">
+        <h2>Goede Vrijdag</h2>
+        <p><strong>Wanneer gevierd?</strong><br>Vrijdag voor Pasen.</p>
+        <p><strong>Wat wordt gevierd?</strong><br>Op Goede Vrijdag herdenken christenen de lijdensweg en kruisiging van Jezus Christus. Het is een dag van bezinning, verdriet en dankbaarheid voor Zijn offer.</p>
+        <p><strong>Hoelang duren de feestdag(en)?</strong><br>Eén dag.</p>
+        <p><strong>Op welke manier wordt het gevierd?</strong><br>Met sobere kerkdiensten en momenten van stilte. Veel mensen kiezen ervoor om te vasten of sober te eten.</p>
+        <p><strong>Wat doen mensen op deze feestdag?</strong><br>Ze bezoeken kerkdiensten, lezen Bijbelse teksten, bidden en reflecteren op het lijden en de dood van Jezus.</p>
+        <div class="images">
+            <img src="goede1.jpg" alt="goede-vrijdag afbeelding 1">
+            <img src="goede2.jpg" alt="goede-vrijdag afbeelding 2">
+            <img src="goede3.jpg" alt="goede-vrijdag afbeelding 3">
+            <img src="goede4.jpg" alt="goede-vrijdag afbeelding 4">
+        </div>
+    </section>
+
+    <section id="pasen">
+        <h2>Pasen</h2>
+        <p><strong>Wanneer gevierd?</strong><br>Eerste zondag en maandag na de eerste volle maan in de lente.</p>
+        <p><strong>Wat wordt gevierd?</strong><br>Met Pasen vieren christenen de opstanding van Jezus Christus uit de dood. Dit symboliseert overwinning op de dood en hoop op eeuwig leven.</p>
+        <p><strong>Hoelang duren de feestdag(en)?</strong><br>Twee dagen.</p>
+        <p><strong>Op welke manier wordt het gevierd?</strong><br>Met feestelijke kerkdiensten, paasontbijten, eieren zoeken, en soms optochten. Het is een moment van vreugde.</p>
+        <p><strong>Wat doen mensen op deze feestdag?</strong><br>Ze bezoeken de kerk, eten samen, vieren met familie en doen aan activiteiten zoals eieren schilderen en zoeken.</p>
+        <div class="images">
+            <img src="passen1.jpg" alt="pasen afbeelding 1">
+            <img src="passen2.jpg" alt="pasen afbeelding 2">
+            <img src="passen3.jpg" alt="pasen afbeelding 3">
+            <img src="passen4.jpg" alt="pasen afbeelding 4">
+        </div>
+    </section>
+
+    <section id="hemelvaart">
+        <h2>Hemelvaart</h2>
+        <p><strong>Wanneer gevierd?</strong><br>40 dagen na Pasen, op een donderdag.</p>
+        <p><strong>Wat wordt gevierd?</strong><br>Op Hemelvaart herdenken christenen de dag dat Jezus Christus naar de hemel opsteeg, 40 dagen na Zijn opstanding. Het markeert het einde van Zijn tijd op aarde.</p>
+        <p><strong>Hoelang duren de feestdag(en)?</strong><br>Eén dag.</p>
+        <p><strong>Op welke manier wordt het gevierd?</strong><br>Met kerkdiensten, buitenwandelingen, en soms een vrije dag om te rusten of tijd met familie door te brengen.</p>
+        <p><strong>Wat doen mensen op deze feestdag?</strong><br>Ze gaan naar de kerk, reflecteren op de betekenis van de hemelvaart, en brengen vaak tijd buitenshuis door.</p>
+        <div class="images">
+            <img src="hemel1.jpg" alt="hemelvaart afbeelding 1">
+            <img src="hemel2.jpg" alt="hemelvaart afbeelding 2">
+            <img src="hemel3.jpg" alt="hemelvaart afbeelding 3">
+            <img src="hemel4.jpg" alt="hemelvaart afbeelding 4">
+        </div>
+    </section>
+
+    <section id="pinksteren">
+        <h2>Pinksteren</h2>
+        <p><strong>Wanneer gevierd?</strong><br>50 dagen na Pasen, op een zondag en maandag.</p>
+        <p><strong>Wat wordt gevierd?</strong><br>Met Pinksteren vieren christenen de uitstorting van de Heilige Geest op de discipelen, zoals beschreven in het Nieuwe Testament. Dit wordt gezien als het begin van de christelijke kerk.</p>
+        <p><strong>Hoelang duren de feestdag(en)?</strong><br>Twee dagen.</p>
+        <p><strong>Op welke manier wordt het gevierd?</strong><br>Met feestelijke kerkdiensten, zang, en gemeenschappelijke vieringen. Het is een moment van vreugde en hernieuwing.</p>
+        <p><strong>Wat doen mensen op deze feestdag?</strong><br>Ze bezoeken kerkdiensten, zingen, en vieren met de gemeenschap. Vaak zijn er speciale evenementen georganiseerd.</p>
+        <div class="images">
+            <img src="pink1.jpg" alt="pinksteren afbeelding 1">
+            <img src="pink2.jpg" alt="pinksteren afbeelding 2">
+            <img src="pink3.jpg" alt="pinksteren afbeelding 3">
+            <img src="pink4.jpg" alt="pinksteren afbeelding 4">
+        </div>
+    </section>
+
+</body>
+</html>
